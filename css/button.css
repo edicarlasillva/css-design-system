@@ -153,6 +153,23 @@
     color: rgb(var(--color-error-dark));
 }
 
+.btn--outline-warning {
+    background-color: transparent;
+    border: 2px solid rgb(var(--color-warning-default));
+    color: rgb(var(--color-warning-default));
+}
+
+.btn--outline-warning:hover:not(:disabled):not(.btn--disabled),
+.btn--outline-warning:focus:not(:disabled):not(.btn--disabled) {
+    border: 2px solid rgb(var(--color-warning-light));
+    color: rgb(var(--color-warning-light));
+}
+
+.btn--outline-warning:active:not(:disabled):not(.btn--disabled) {
+    border: 2px solid rgb(var(--color-warning-dark));
+    color: rgb(var(--color-warning-dark));
+}
+
 .btn--outline-primary:disabled,
 .btn--outline-success:disabled,
 .btn--outline-error:disabled {

@@ -50,7 +50,7 @@ Adicione as classes btn--small, btn--medium ou btn--large para tamanho de botão
 Adicione a classe `btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
 
 ```html
-<button class="btn btn--primary btn--disabled btn--medium">
+<button class="btn btn--primary btn--disabled">
   Botão desativado
 </button>
 ```
@@ -67,13 +67,22 @@ Para remover a cor de fundo de um botão, adicione a classe `btn--outline-*`.
 - warning
 
 ```html
-<button class="btn btn--outline-primary">Botão outline</button>
-<button class="btn btn--outline-success">Botão outline</button>
-<button class="btn btn--outline-error">Botão outline</button>
-<button class="btn btn--outline-warning">Botão outline</button>
+<button class="btn btn--outline-primary">Botão outline primário</button>
+<button class="btn btn--outline-success">Botão secesso</button>
+<button class="btn btn--outline-error">Botão erro</button>
+<button class="btn btn--outline-warning">Botão advertência</button>
 ```
 
 ### Icon label buttons
+
+Você pode adicionar um ícone ao botão com a classe `btn--icon-label`.
+
+```html
+<button class="btn btn--outline-primary btn--medium btn--icon-label">
+  <img src="images/calendar.svg" class="icon icon--size-small" />
+  icon label
+</button>
+```
 
 ```css
 .btn--icon-label
