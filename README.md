@@ -14,22 +14,22 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 
 ### Cores
 
-Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha `btn`. Também existem classes `btn--success` e `btn--error` para sucesso (verde) e erro (vermelho). Você deve exibir apenas uma cor de cada vez.
+Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha a classe `btn`. Também existem `btn--success` e `btn--error` para sucesso (verde) e erro (vermelho). Você deve exibir apenas uma cor de cada vez.
 
-Você sempre precisará especificar cor e tamanho para obter um botão completo.
+**Você sempre precisará especificar cor e tamanho para obter um botão completo.**
 
 ```html
-<button class="btn btn--primary btn--medium">Botão primário</button>
-<button class="btn btn--success btn--medium">Botão sucesso</button>
-<button class="btn btn--error btn--medium">botão erro</button>
+<button class="btn btn--primary">Botão primário</button>
+<button class="btn btn--success">Botão sucesso</button>
+<button class="btn btn--error">Botão erro</button>
 ```
 
-### Button disabled
+### Desativado
 
-Adicione a classe btn--disabled ou o atributo disabled para o estilo desabilitado do botão.
+Adicione a classe `btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
 
 ```html
-<button class="btn btn--disabled">botão desativado</button>
+<button class="btn btn--disabled btn--medium">Botão desativado</button>
 ```
 
 ### Button sizes
