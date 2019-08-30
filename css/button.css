@@ -1,0 +1,213 @@
+/* Base button styles */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    font: var(--font-primary);
+    border: 2px solid var(--color-light);
+
+}
+
+.btn:disabled,
+.btn.btn--disabled {
+    cursor: not-allowed;
+    background-color: var(--color-light);
+    border-color: var(--color-light);
+    color: var(--color-text-muted);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Button color modifiers */
+
+.btn--primary {
+    background-color: var(--color-primary-default);
+    border: 2px solid var(--color-primary-default);
+    color: var(--color-light);
+}
+
+.btn--primary:hover:not(:disabled):not(.btn--disabled),
+.btn--primary:focus:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+}
+
+.btn--primary:active:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+.btn--success {
+    background-color: var(--color-success-default);
+    border: 2px solid var(--color-success-default);
+    color: var(--color-light);
+}
+
+.btn--success:hover:not(:disabled):not(.btn--disabled),
+.btn--success:focus:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-success-light);
+    border: 2px solid var(--color-success-light);
+}
+
+.btn--success:active:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-success-dark);
+    border: 2px solid var(--color-success-dark);
+}
+
+.btn--error {
+    background-color: var(--color-error-default);
+    border: 2px solid var(--color-error-default);
+    color: var(--color-light);
+}
+
+.btn--error:hover:not(:disabled):not(.btn--disabled),
+.btn--error:focus:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-error-light);
+    border: 2px solid var(--color-error-light);
+}
+
+.btn--error:active:not(:disabled):not(.btn--disabled) {
+    background-color: var(--color-error-dark);
+    border: 2px solid var(--color-error-dark);
+}
+
+/* Outline button */
+
+.btn--outline-primary {
+    background-color: transparent;
+    border: 2px solid var(--color-primary-default);
+    color: var(--color-primary-default);
+}
+
+.btn--outline-primary:hover:not(:disabled):not(.btn--disabled),
+.btn--outline-primary:focus:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-primary-light);
+    color: var(--color-primary-light);
+}
+
+.btn--outline-primary:active:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-primary-dark);
+    color: var(--color-primary-dark);
+}
+
+.btn--outline-success {
+    background-color: transparent;
+    border: 2px solid var(--color-success-default);
+    color: var(--color-success-default);
+}
+
+.btn--outline-success:hover:not(:disabled):not(.btn--disabled),
+.btn--outline-success:focus:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-success-light);
+    color: var(--color-success-light);
+}
+
+.btn--outline-success:active:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-success-dark);
+    color: var(--color-success-dark);
+}
+
+.btn--outline-error {
+    background-color: transparent;
+    border: 2px solid var(--color-error-default);
+    color: var(--color-error-default);
+}
+
+.btn--outline-error:hover:not(:disabled):not(.btn--disabled),
+.btn--outline-error:focus:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-error-light);
+    color: var(--color-error-light);
+}
+
+.btn--outline-error:active:not(:disabled):not(.btn--disabled) {
+    border: 2px solid var(--color-error-dark);
+    color: var(--color-error-dark);
+}
+
+.btn--outline-primary:disabled,
+.btn--outline-success:disabled,
+.btn--outline-error:disabled {
+    cursor: not-allowed;
+    background-color: transparent;
+    border-color: var(--color-text-muted);
+    color: var(--color-text-muted);
+}
+
+/* Button size modifiers */
+
+.btn--small {
+    padding: 5px 28px;
+    border-radius: 16px;
+    line-height: 18px;
+    font-size: var(--font-size-normal);
+}
+
+.btn--medium {
+    padding: 8px 38px;
+    border-radius: 24px;
+    line-height: 28px;
+    font-size: var(--font-size-medium);
+}
+
+.btn--large {
+    padding: 12px 46px;
+    border-radius: 31px;
+    line-height: 35px;
+    font-size: var(--font-size-large);
+}
+
+/* Icon label button  */
+
+.btn--icon-label .icon {
+    background-color: var(--color-light);
+    margin: -4px 9px -3px 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn--icon-label-right .a-icon {
+    margin: -4px 0 -3px 9px;
+}
+
+/* Icon button */
+
+.btn--icon .icon {
+    background-color: var(--color-light);
+    margin: -4px 0 -3px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* Inline link */
+
+.link {
+    font: var(--font-secondary);
+    color: var(--color-primary-default);
+    text-decoration: none;
+    cursor: pointer;
+    word-wrap: break-word;
+
+}
+
+.link:hover {
+    color: var(--color-primary-light);
+}
+
+.link:active {
+    color: var(--color-primary-dark);
+}
+
+.link:focus {
+    outline: none;
+}
+
+a.btn {
+    text-decoration: none;
+}

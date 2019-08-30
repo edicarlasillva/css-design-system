@@ -1,0 +1,31 @@
+:root {
+    --color-light: #e9eef2;
+    --color-text-muted: #adb5bd;
+    --color-text-body: #636f7a;
+    --color-text-title: #212529;
+    --color-primary-light: #4a9eda;
+    --color-primary-default: #0077cc;
+    --color-primary-dark: #006bb7;
+    --color-success-light: #5ea86e;
+    --color-success-default: #218837;
+    --color-success-dark: #1d7a31;
+    --color-error-light: #db6f7b;
+    --color-error-default: #c82334;
+    --color-error-dark: #b41f2e;
+    --color-warning-light: #e7bb3a;
+    --color-warning-default: #e0a800;
+    --color-warning-dark: #ca9700;
+    --font-size-small: 8px;
+    --font-size-normal: calc(var(--font-size-small) * 1.5);
+    --font-size-medium: calc(var(--font-size-small) * 2);
+    --font-size-large: calc(var(--font-size-small) * 3);
+    --font-size-x-large: calc(var(--font-size-small) * 4);
+    --font-size-xx-large: calc(var(--font-size-small) * 5);
+    --font-primary: normal normal 600 normal var(--font-size-medium)/1.5 Poppins, sans-serif;
+    --font-secondary: normal normal 400 normal var(--font-size-medium)/1.5 Lato, sans-serif;
+    --z-index-1: 10;
+    --z-index-2: 20;
+    --z-index-3: 30;
+    --z-index-4: 40;
+    --checkbox-size: 16px;
+}
