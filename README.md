@@ -1,6 +1,6 @@
 # Framework CSS
 
-### A design system
+### Design System
 
 ## Introdução
 
@@ -12,21 +12,16 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 <button class="btn">Botão padrão</button>
 ```
 
-### Botões primários
+### Cores
 
-Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha `btn`.
+Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha `btn`. Também existem classes `btn--success` e `btn--error` para sucesso (verde) e erro (vermelho). Você deve exibir apenas uma cor de cada vez.
 
-```html
-<button class="btn btn--primary">Botão primário</button>
-```
-
-### Botões personalizados
-
-Existem classes btn--success e btn--error para sucesso (verde) e erro (vermelho).
+Você sempre precisará especificar cor e tamanho para obter um botão completo.
 
 ```html
-<button class="btn btn--success">Botão sucesso</button>
-<button class="btn btn--error">botão erro</button>
+<button class="btn btn--primary btn--medium">Botão primário</button>
+<button class="btn btn--success btn--medium">Botão sucesso</button>
+<button class="btn btn--error btn--medium">botão erro</button>
 ```
 
 ### Button disabled
