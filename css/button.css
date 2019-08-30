@@ -10,15 +10,15 @@
     overflow: hidden;
     font: var(--font-primary);
     border: 2px solid var(--color-light);
+    border-radius: 10px;
+    background-color: transparent;
 
 }
 
 .btn:disabled,
 .btn.btn--disabled {
     cursor: not-allowed;
-    background-color: var(--color-light);
-    border-color: var(--color-light);
-    color: var(--color-text-muted);
+    opacity: .5;
 }
 
 .btn:focus {
@@ -28,107 +28,124 @@
 /* Button color modifiers */
 
 .btn--primary {
-    background-color: var(--color-primary-default);
-    border: 2px solid var(--color-primary-default);
+    background-color: rgb(var(--color-primary-default));
+    border: 2px solid rgb(var(--color-primary-default));
     color: var(--color-light);
 }
 
 .btn--primary:hover:not(:disabled):not(.btn--disabled),
 .btn--primary:focus:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-primary-light);
-    border-color: var(--color-primary-light);
+    background-color: rgb(var(--color-primary-light));
+    border-color: rgb(var(--color-primary-light));
 }
 
 .btn--primary:active:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-primary-dark);
-    border-color: var(--color-primary-dark);
+    background-color: rgb(var(--color-primary-dark));
+    border-color: rgb(var(--color-primary-dark));
 }
 
 .btn--success {
-    background-color: var(--color-success-default);
-    border: 2px solid var(--color-success-default);
+    background-color: rgb(var(--color-success-default));
+    border: 2px solid rgb(var(--color-success-default));
     color: var(--color-light);
 }
 
 .btn--success:hover:not(:disabled):not(.btn--disabled),
 .btn--success:focus:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-success-light);
-    border: 2px solid var(--color-success-light);
+    background-color: rgb(var(--color-success-light));
+    border: 2px solid rgb(var(--color-success-light));
 }
 
 .btn--success:active:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-success-dark);
-    border: 2px solid var(--color-success-dark);
+    background-color: rgb(var(--color-success-dark));
+    border: 2px solid rgb(var(--color-success-dark));
 }
 
 .btn--error {
-    background-color: var(--color-error-default);
-    border: 2px solid var(--color-error-default);
+    background-color: rgb(var(--color-error-default));
+    border: 2px solid rgb(var(--color-error-default));
     color: var(--color-light);
 }
 
 .btn--error:hover:not(:disabled):not(.btn--disabled),
 .btn--error:focus:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-error-light);
-    border: 2px solid var(--color-error-light);
+    background-color: rgb(var(--color-error-light));
+    border: 2px solid rgb(var(--color-error-light));
 }
 
 .btn--error:active:not(:disabled):not(.btn--disabled) {
-    background-color: var(--color-error-dark);
-    border: 2px solid var(--color-error-dark);
+    background-color: rgb(var(--color-error-dark));
+    border: 2px solid rgb(var(--color-error-dark));
+}
+
+.btn--warning {
+    background-color: rgb(var(--color-warning-default));
+    border: 2px solid rgb(var(--color-warning-default));
+    color: var(--color-light);
+}
+
+.btn--warning:hover:not(:disabled):not(.btn--disabled),
+.btn--warning:focus:not(:disabled):not(.btn--disabled) {
+    background-color: rgb(var(--color-warning-light));
+    border: 2px solid rgb(var(--color-warning-light));
+}
+
+.btn--warning:active:not(:disabled):not(.btn--disabled) {
+    background-color: rgb(var(--color-warning-dark));
+    border: 2px solid rgb(var(--color-warning-dark));
 }
 
 /* Outline button */
 
 .btn--outline-primary {
     background-color: transparent;
-    border: 2px solid var(--color-primary-default);
-    color: var(--color-primary-default);
+    border: 2px solid rgb(var(--color-primary-default));
+    color: rgb(var(--color-primary-default));
 }
 
 .btn--outline-primary:hover:not(:disabled):not(.btn--disabled),
 .btn--outline-primary:focus:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-primary-light);
-    color: var(--color-primary-light);
+    border: 2px solid rgb(var(--color-primary-light));
+    color: rgb(var(--color-primary-light));
 }
 
 .btn--outline-primary:active:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-primary-dark);
-    color: var(--color-primary-dark);
+    border: 2px solid rgb(var(--color-primary-dark));
+    color: rgb(var(--color-primary-dark));
 }
 
 .btn--outline-success {
     background-color: transparent;
-    border: 2px solid var(--color-success-default);
-    color: var(--color-success-default);
+    border: 2px solid rgb(var(--color-success-default));
+    color: rgb(var(--color-success-default));
 }
 
 .btn--outline-success:hover:not(:disabled):not(.btn--disabled),
 .btn--outline-success:focus:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-success-light);
-    color: var(--color-success-light);
+    border: 2px solid rgb(var(--color-success-light));
+    color: rgb(var(--color-success-light));
 }
 
 .btn--outline-success:active:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-success-dark);
-    color: var(--color-success-dark);
+    border: 2px solid rgb(var(--color-success-dark));
+    color: rgb(var(--color-success-dark));
 }
 
 .btn--outline-error {
     background-color: transparent;
-    border: 2px solid var(--color-error-default);
-    color: var(--color-error-default);
+    border: 2px solid rgb(var(--color-error-default));
+    color: rgb(var(--color-error-default));
 }
 
 .btn--outline-error:hover:not(:disabled):not(.btn--disabled),
 .btn--outline-error:focus:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-error-light);
-    color: var(--color-error-light);
+    border: 2px solid rgb(var(--color-error-light));
+    color: rgb(var(--color-error-light));
 }
 
 .btn--outline-error:active:not(:disabled):not(.btn--disabled) {
-    border: 2px solid var(--color-error-dark);
-    color: var(--color-error-dark);
+    border: 2px solid rgb(var(--color-error-dark));
+    color: rgb(var(--color-error-dark));
 }
 
 .btn--outline-primary:disabled,
@@ -144,21 +161,18 @@
 
 .btn--small {
     padding: 5px 28px;
-    border-radius: 16px;
     line-height: 18px;
     font-size: var(--font-size-normal);
 }
 
 .btn--medium {
     padding: 8px 38px;
-    border-radius: 24px;
     line-height: 28px;
     font-size: var(--font-size-medium);
 }
 
 .btn--large {
     padding: 12px 46px;
-    border-radius: 31px;
     line-height: 35px;
     font-size: var(--font-size-large);
 }

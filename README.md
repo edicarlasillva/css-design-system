@@ -32,6 +32,7 @@ Para indicar que um botão representa uma ação principal, adicione `btn--prima
 <button class="btn btn--primary">Botão primário</button>
 <button class="btn btn--success">Botão sucesso</button>
 <button class="btn btn--error">Botão erro</button>
+<button class="btn btn--warning">Botão warning</button>
 ```
 
 ### Tamanhos
@@ -49,7 +50,9 @@ Adicione as classes btn--small, btn--medium ou btn--large para tamanho de botão
 Adicione a classe `btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
 
 ```html
-<button class="btn btn--disabled btn--medium">Botão desativado</button>
+<button class="btn btn--primary btn--disabled btn--medium">
+  Botão desativado
+</button>
 ```
 
 ### Contorno
