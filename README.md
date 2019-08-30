@@ -9,15 +9,22 @@
 Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a classe `btn` aos elementos <button>.
 
 ```html
-<button class="btn">Botão padão</button>
+<button class="btn">Botão padrão</button>
 ```
 
-### Button colors
+### Botões primários
 
-Existem classes btn--primary para botões primários, btn--success ou btn--error para sucesso (verde) ou erro (vermelho).
+Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento que já tenha `btn` <button>.
 
 ```html
 <button class="btn btn--primary">Botão primário</button>
+```
+
+### Botões personalizados
+
+Existem classes btn--success e btn--error para sucesso (verde) e erro (vermelho).
+
+```html
 <button class="btn btn--success">Botão sucesso</button>
 <button class="btn btn--error">botão erro</button>
 ```
