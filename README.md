@@ -14,7 +14,7 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 
 ### Botões primários
 
-Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento que já tenha `btn` <button>.
+Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento que já tenha `btn` `<button>`.
 
 ```html
 <button class="btn btn--primary">Botão primário</button>
