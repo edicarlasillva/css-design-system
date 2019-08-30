@@ -73,22 +73,26 @@ Para remover a cor de fundo de um botão, adicione a classe `btn--outline-*`.
 <button class="btn btn--outline-warning">Botão advertência</button>
 ```
 
-### Icon label buttons
+### Ícone
 
 Você pode adicionar um ícone ao botão com a classe `btn--icon-label`.
 
 ```html
 <button class="btn btn--outline-primary btn--medium btn--icon-label">
   <img src="images/calendar.svg" class="icon icon--size-small" />
-  icon label
+  Botão com ícone
 </button>
 ```
+
+### Botão ícone
+
+Você pode ter um botão apenas com o ícone desejado, use a classe `btn--icon`.
 
 ```css
 .btn--icon-label
 ```
 
-### Icon buttons
+### Ícone como botão
 
 ```css
 .btn--icon
