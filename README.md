@@ -26,13 +26,13 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 
 ### Cores
 
-Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha a classe `btn`. Também existem `btn--success` e `btn--error` para sucesso (verde) e erro (vermelho). Você deve exibir apenas uma cor de cada vez.
+Para indicar que um botão representa uma ação principal, adicione `btn--primary` ao elemento `<button>` que já tenha a classe `btn`. Também existem `btn--success` e `btn--error` para sucesso (verde), erro (vermelho) ou advertência (amarelo). Você deve exibir apenas uma cor de cada vez.
 
 ```html
 <button class="btn btn--primary">Botão primário</button>
 <button class="btn btn--success">Botão sucesso</button>
 <button class="btn btn--error">Botão erro</button>
-<button class="btn btn--warning">Botão warning</button>
+<button class="btn btn--warning">Botão advertência</button>
 ```
 
 ### Tamanhos
@@ -57,10 +57,20 @@ Adicione a classe `btn--disabled` ou o atributo `disabled` para o estilo desabil
 
 ### Contorno
 
+Para remover a cor de fundo de um botão, adicione a classe `btn--outline-*`.
+
+**\*deve ser substituido pela cor do contorno**:
+
+- primary
+- success
+- error
+- warning
+
 ```html
 <button class="btn btn--outline-primary">Botão outline</button>
 <button class="btn btn--outline-success">Botão outline</button>
 <button class="btn btn--outline-error">Botão outline</button>
+<button class="btn btn--outline-warning">Botão outline</button>
 ```
 
 ### Icon label buttons
