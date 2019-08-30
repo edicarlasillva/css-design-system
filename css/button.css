@@ -225,7 +225,7 @@
 
 .link {
     font: var(--font-secondary);
-    color: var(--color-primary-default);
+    color: rgb(var(--color-primary-default));
     text-decoration: none;
     cursor: pointer;
     word-wrap: break-word;
@@ -233,11 +233,11 @@
 }
 
 .link:hover {
-    color: var(--color-primary-light);
+    color: rgb(var(--color-primary-light));
 }
 
 .link:active {
-    color: var(--color-primary-dark);
+    color: rgb(var(--color-primary-dark));
 }
 
 .link:focus {
