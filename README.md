@@ -2,11 +2,11 @@
 
 ### A design system
 
-## Introduction
+## Introdução
 
-## Buttons
+## Botões
 
-Os botões incluem estilos simples de botão para diferentes tipos e tamanhos. Adicione a classe btn aos elementos <button>.
+Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a classe `html btn` aos elementos <button>.
 
 ```html
 <button class="btn">Botão padão</button>
