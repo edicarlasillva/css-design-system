@@ -6,7 +6,13 @@
 
 ## Botões
 
-Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a classe `html btn` aos elementos <button>.
+Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a classe
+
+```html
+btn
+```
+
+aos elementos <button>.
 
 ```html
 <button class="btn">Botão padão</button>
