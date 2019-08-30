@@ -59,7 +59,7 @@ Adicione a classe `btn--disabled` ou o atributo `disabled` para o estilo desabil
 
 Para remover a cor de fundo de um botão, adicione a classe `btn--outline-*`.
 
-**\*deve ser substituido pela cor do contorno**:
+**\* deve ser substituido pela cor do contorno**:
 
 - primary
 - success
