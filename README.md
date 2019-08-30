@@ -11,7 +11,7 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 - `<a>`
 - `<button>`
 - `<input type="submit">`
-- `<input type="reset">`.
+- `<input type="reset">`
 
 ```html
 <button class="btn">Botão padrão</button>
