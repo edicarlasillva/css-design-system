@@ -227,7 +227,6 @@
 /* Icon label button  */
 
 .c-btn--icon-label .c-icon {
-  background-color: var(--color-light);
   margin: -4px 9px -3px 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;

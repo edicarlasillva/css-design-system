@@ -1,6 +1,7 @@
 /* Input base */
 
-.c-input {
+.c-input:not(:last-child) {
+    margin-bottom: .75rem;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11,15 +12,29 @@
     flex-direction: column;
 }
 
-.c-input>input,
-.c-input>textarea {
+.c-input input[type="text"],
+.c-input input[type="password"],
+.c-input input[type="email"],
+.c-input input[type="url"],
+.c-input input[type="date"],
+.c-input input[type="month"],
+.c-input input[type="time"],
+.c-input input[type="datetime"],
+.c-input input[type="datetime-local"],
+.c-input input[type="week"],
+.c-input input[type="number"],
+.c-input input[type="search"],
+.c-input input[type="tel"],
+.c-input input[type="color"],
+.c-input select,
+.c-input textarea {
     width: 100%;
     padding: 10px 15px;
-    border: 1px solid var(--color-text-muted);
-    border-radius: 8px;
-    background-color: #ffffff;
+    border: 2px solid rgb(var(--color-primary-default));
+    border-radius: 4px;
+    background-color: #fff;
     font: var(--font-secondary);
-    color: var(--color-text-body);
+    color: rgb(var(--color-primary-default));
 }
 
 .c-input>label {
@@ -27,24 +42,26 @@
     -webkit-transition: 0.2s ease all;
     transition: 0.2s ease all;
     pointer-events: none;
-    color: var(--color-text-muted);
+    color: rgb(var(--color-primary-default));
     font: var(--font-secondary);
 }
 
+/* Placeholder */
+
 .c-input>input::-webkit-input-placeholder {
-    color: var(--color-text-muted);
+    color: rgb(var(--color-primary-default));
 }
 
 .c-input>input:-ms-input-placeholder {
-    color: var(--color-text-muted);
+    color: rgb(var(--color-primary-default));
 }
 
 .c-input>input::-ms-input-placeholder {
-    color: var(--color-text-muted);
+    color: rgb(var(--color-primary-default));
 }
 
 .c-input>input::placeholder {
-    color: var(--color-text-muted);
+    color: rgb(var(--color-primary-default));
 }
 
 /* Input focus */
@@ -52,14 +69,14 @@
 .c-input>input:focus,
 .c-input>textarea:focus {
     outline: none;
-    border: 1px solid var(--color-text-body);
+    border: 2px solid rgb(var(--color-primary-default));
 }
 
 /* Input validated */
 
 .c-input--validated>input,
 .c-input--validated>input:focus {
-    border: 1px solid var(--color-success-default);
+    border: 2px solid rgb(var(--color-success-default));
 }
 
 .c-input--validated>label {
@@ -74,7 +91,7 @@
 
 .c-input--invalid>input,
 .c-input--invalid>input:focus {
-    border: 1px solid var(--color-error-default);
+    border: 2px solid rgb(var(--color-error-default));
 }
 
 .c-input--invalid>label {
@@ -90,8 +107,12 @@
 .c-input--disabled>input:disabled,
 .c-input--disabled>textarea:disabled {
     cursor: not-allowed;
-    border: 1px solid var(--color-light);
+    border: 2px solid var(--color-light);
     background-color: var(--color-light);
+    color: var(--color-text-muted);
+}
+
+.c-input--disabled>label {
     color: var(--color-text-muted);
 }
 
