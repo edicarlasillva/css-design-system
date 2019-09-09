@@ -1,6 +1,6 @@
 /* Icon base */
 
-.icon {
+.c-icon {
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -17,14 +17,14 @@
 
 /* Icon size */
 
-.icon--size-small {
+.c-icon--size-small {
     font-size: var(--font-size-large);
 }
 
-.icon--size-medium {
+.c-icon--size-medium {
     font-size: var(--font-size-x-large);
 }
 
-.icon--size-large {
+.c-icon--size-large {
     font-size: var(--font-size-xx-large);
 }

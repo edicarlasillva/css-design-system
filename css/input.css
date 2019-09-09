@@ -1,6 +1,6 @@
 /* Input base */
 
-.input {
+.c-input {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11,8 +11,8 @@
     flex-direction: column;
 }
 
-.input>input,
-.input>textarea {
+.c-input>input,
+.c-input>textarea {
     width: 100%;
     padding: 10px 15px;
     border: 1px solid var(--color-text-muted);
@@ -22,7 +22,7 @@
     color: var(--color-text-body);
 }
 
-.input>label {
+.c-input>label {
     margin-bottom: 5px;
     -webkit-transition: 0.2s ease all;
     transition: 0.2s ease all;
@@ -31,93 +31,93 @@
     font: var(--font-secondary);
 }
 
-.input>input::-webkit-input-placeholder {
+.c-input>input::-webkit-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input>input:-ms-input-placeholder {
+.c-input>input:-ms-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input>input::-ms-input-placeholder {
+.c-input>input::-ms-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input>input::placeholder {
+.c-input>input::placeholder {
     color: var(--color-text-muted);
 }
 
 /* Input focus */
 
-.input>input:focus,
-.input>textarea:focus {
+.c-input>input:focus,
+.c-input>textarea:focus {
     outline: none;
     border: 1px solid var(--color-text-body);
 }
 
 /* Input validated */
 
-.input--validated>input,
-.input--validated>input:focus {
+.c-input--validated>input,
+.c-input--validated>input:focus {
     border: 1px solid var(--color-success-default);
 }
 
-.input--validated>label {
+.c-input--validated>label {
     color: var(--color-text-body);
 }
 
-.input--validated>input:focus+label {
+.c-input--validated>input:focus+label {
     color: var(--color-success-default);
 }
 
 /* Input invalid  */
 
-.input--invalid>input,
-.input--invalid>input:focus {
+.c-input--invalid>input,
+.c-input--invalid>input:focus {
     border: 1px solid var(--color-error-default);
 }
 
-.input--invalid>label {
+.c-input--invalid>label {
     color: var(--color-text-body);
 }
 
-.input--invalid>input:focus+label {
+.c-input--invalid>input:focus+label {
     color: var(--color-error-default);
 }
 
 /* Input disabled */
 
-.input--disabled>input:disabled,
-.input--disabled>textarea:disabled {
+.c-input--disabled>input:disabled,
+.c-input--disabled>textarea:disabled {
     cursor: not-allowed;
     border: 1px solid var(--color-light);
     background-color: var(--color-light);
     color: var(--color-text-muted);
 }
 
-.input--disabled.a-input--validated::after,
-.input--disabled.a-input--invalid::after {
+.c-input--disabled.c-input--validated::after,
+.c-input--disabled.c-input--invalid::after {
     background-color: var(--color-text-muted);
 }
 
-.input--disabled>input:disabled::-webkit-input-placeholder {
+.c-input--disabled>input:disabled::-webkit-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input--disabled>input:disabled:-ms-input-placeholder {
+.c-input--disabled>input:disabled:-ms-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input--disabled>input:disabled::-ms-input-placeholder {
+.c-input--disabled>input:disabled::-ms-input-placeholder {
     color: var(--color-text-muted);
 }
 
-.input--disabled>input:disabled::placeholder {
+.c-input--disabled>input:disabled::placeholder {
     color: var(--color-text-muted);
 }
 
-.input--disabled>input:disabled+label,
-.input--disabled>textarea:disabled+label {
+.c-input--disabled>input:disabled+label,
+.c-input--disabled>textarea:disabled+label {
     cursor: not-allowed;
     color: var(--color-text-muted);
 }

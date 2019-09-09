@@ -1,0 +1,18 @@
+:root {
+  --color-light: #e9eef2;
+  --color-text-muted: #adb5bd;
+  --color-text-body: #636f7a;
+  --color-text-title: #212529;
+  --color-primary-light: 136, 126, 242;
+  --color-primary-default: 115, 103, 240;
+  --color-primary-dark: 94, 80, 238;
+  --color-success-light: 51, 214, 124;
+  --color-success-default: 40, 199, 111;
+  --color-success-dark: 36, 178, 99;
+  --color-error-light: 255, 97, 110;
+  --color-error-default: 255, 71, 87;
+  --color-error-dark: 255, 46, 64;
+  --color-warning-light: 255, 193, 26;
+  --color-warning-default: 255, 186, 0;
+  --color-warning-dark: 230, 167, 0;
+}

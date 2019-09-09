@@ -1,4 +1,8 @@
-.checkbox {
+:root {
+    --checkbox-size: 16px;
+}
+
+.c-checkbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -8,7 +12,7 @@
     align-items: center;
 }
 
-.checkbox>label {
+.c-checkbox>label {
     padding-left: 8px;
     cursor: pointer;
     font: var(--font-secondary);
@@ -17,12 +21,12 @@
     order: 2;
 }
 
-.checkbox--disabled>label {
+.c-checkbox--disabled>label {
     cursor: not-allowed;
     color: var(--color-light);
 }
 
-.checkbox>input[type='checkbox'] {
+.c-checkbox>input[type='checkbox'] {
     position: absolute;
     width: var(--checkbox-size);
     height: var(--checkbox-size);
@@ -34,7 +38,7 @@
     z-index: var(--z-index-1);
 }
 
-.checkbox>input[type='checkbox']:checked~.a-checkbox__shape::before {
+.c-checkbox>input[type='checkbox']:checked~.c-checkbox__shape::before {
     border-color: var(--color-primary-default);
     background-color: var(--color-primary-default);
 }
