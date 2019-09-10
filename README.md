@@ -6,7 +6,8 @@
 
 ## Botões
 
-Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a classe `c-btn` aos elementos:
+Incluem estilos simples para diferentes tipos e tamanhos de botões. 
+Adicionar a classe `c-btn` aos elementos:
 
 - `<a>`
 - `<button>`
@@ -14,25 +15,36 @@ Incluem estilos simples para diferentes tipos e tamanhos de botões. Adicione a 
 - `<input type="reset">`
 
 ```html
-<button class="c-btn">Botão padrão</button>
+<button class="c-btn">Botão</button>
 ```
+
+Os botões principais são de tamanho médio e têm um fundo colorido. 
 
 **Você sempre precisará especificar cor e tamanho para obter um botão completo.**
 
 ```html
 <!-- Exemplo de um botão completo -->
-<button class="c-btn c-btn--primary c-btn--medium">Botão padrão</button>
+<button class="c-btn c-btn--primary c-btn--medium">Botão</button>
 ```
 
 ### Cores
 
-Para indicar que um botão representa uma ação principal, adicione `c-btn--primary` ao elemento `<button>` que já tenha a classe `c-btn`. Também existem `c-btn--success` e `c-btn--error` para sucesso (verde), erro (vermelho) ou advertência (amarelo). Você deve exibir apenas uma cor de cada vez.
+Para indicar que um botão representa uma ação primária, adicionar `c-btn--primary` ao elemento `<button>` que já tenha a classe `c-btn`. Também existem `c-btn--success`,  `c-btn--error` e `c-btn--warning` para sucesso (verde), erro (vermelho) ou aviso (amarelo). 
+
+Exibir apenas uma classe de cor para cada botão. 
+Passe o mouse e clique para visualizar os estados `:hover` e `:active`.
 
 ```html
-<button class="c-btn c-btn--primary">Botão primário</button>
-<button class="c-btn c-btn--success">Botão sucesso</button>
-<button class="c-btn c-btn--error">Botão erro</button>
-<button class="c-btn c-btn--warning">Botão advertência</button>
+<button class="c-btn c-btn--primary c-btn--medium">Botão primário</button>
+<button class="c-btn c-btn--success c-btn--medium">Botão sucesso</button>
+<button class="c-btn c-btn--error c-btn--medium">Botão erro</button>
+<button class="c-btn c-btn--warning c-btn--medium">Botão aviso</button>
+```
+
+Usar a classe `c-btn--disabled` para mostrar um botão desabilitado. 
+
+```html 
+<button class="c-btn c-btn--primary c-btn--disabled c-btn--medium">Botão desabilitado</button>
 ```
 
 ### Tamanhos
