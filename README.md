@@ -101,7 +101,7 @@ Você pode ter um botão apenas com o ícone desejado, use a classe `c-btn--icon
 ```
 
 
-### Desativado
+### Desativado 
 
 Adicionar a classe `c-btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
 
