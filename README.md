@@ -1,6 +1,4 @@
-# Cristal
-
-### Framework CSS
+# Cristal - Framework CSS
 
 ## Introdução
 
@@ -69,9 +67,17 @@ Para remover a cor de fundo de um botão, adicionar a classe `c-btn--outline-*`.
 <button class="c-btn c-btn--outline-warning c-btn--medium">Outline aviso</button>
 ```
 
-### Ícone
+### Botão arredondado
 
-Você pode adicionar um ícone ao botão com a classe `c-btn--icon-label`.
+Para arredondar os botões, adicionar a classe `c-rounded` em conjunto com os modificadores de tamanho e cor.
+
+```html 
+<button class="c-btn c-btn--outline-primary c-btn--medium c-rounded c-btn--icon-label"></button>
+```
+
+### Botão com ícone
+
+Para adicionar um ícone ao botão, primeiro crie um botão principal regular com todas as classes de modificadores de tamanho e cor e adicione a classe `c-btn--icon-label`.
 
 ```html
 <button class="c-btn c-btn--outline-primary c-btn--medium c-btn--icon-label">
