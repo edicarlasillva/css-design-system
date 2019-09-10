@@ -37,11 +37,13 @@ Passe o mouse e clique para visualizar os estados `:hover` e `:active`.
 ```html
 <button class="c-btn c-btn--primary c-btn--medium">Botão primário</button>
 <button class="c-btn c-btn--success c-btn--medium">Botão sucesso</button>
-<button class="c-btn c-btn--error c-btn--medium">Botão erro</button>
+<button class="c-btn c-btn--error c-btn--medium">Botão erro</button>0
 <button class="c-btn c-btn--warning c-btn--medium">Botão aviso</button>
 ```
 
-Usar a classe `c-btn--disabled` para mostrar um botão desabilitado. 
+### Desativado
+
+Adicionar a classe `c-btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
 
 ```html 
 <button class="c-btn c-btn--primary c-btn--disabled c-btn--medium">Botão desabilitado</button>
@@ -49,22 +51,12 @@ Usar a classe `c-btn--disabled` para mostrar um botão desabilitado.
 
 ### Tamanhos
 
-Adicione as classes btn--small, btn--medium ou btn--large para tamanho de botão pequeno, médio ou grande.
+Adicionar as classes c-btn--small, c-btn--medium ou c-btn--large para tamanho de botão pequeno, médio ou grande.
 
 ```html
-<button class="c-btn c-btn--small">Botão pequeno</button>
-<button class="c-btn c-btn--medium">Botão médio</button>
-<button class="c-btn c-btn--large">Botão grande</button>
-```
-
-### Desativado
-
-Adicione a classe `c-btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
-
-```html
-<button class="c-btn c-btn--primary c-btn--disabled">
-  Botão desativado
-</button>
+<button class="c-btn c-btn--primary c-btn--small">Botão pequeno</button>
+<button class="c-btn c-btn--primary c-btn--medium">Botão médio</button>
+<button class="c-btn c-btn--primary c-btn--large">Botão grande</button>
 ```
 
 ### Contorno
