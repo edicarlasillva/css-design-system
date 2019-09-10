@@ -41,14 +41,6 @@ Passe o mouse e clique para visualizar os estados `:hover` e `:active`.
 <button class="c-btn c-btn--warning c-btn--medium">Botão aviso</button>
 ```
 
-### Desativado
-
-Adicionar a classe `c-btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
-
-```html 
-<button class="c-btn c-btn--primary c-btn--disabled c-btn--medium">Botão desabilitado</button>
-```
-
 ### Tamanhos
 
 Adicionar as classes c-btn--small, c-btn--medium ou c-btn--large para tamanho de botão pequeno, médio ou grande.
@@ -61,7 +53,7 @@ Adicionar as classes c-btn--small, c-btn--medium ou c-btn--large para tamanho de
 
 ### Contorno
 
-Para remover a cor de fundo de um botão, adicione a classe `c-btn--outline-*`.
+Para remover a cor de fundo de um botão, adicionar a classe `c-btn--outline-*`.
 
 **\* deve ser substituido pela cor do contorno**:
 
@@ -71,10 +63,10 @@ Para remover a cor de fundo de um botão, adicione a classe `c-btn--outline-*`.
 - warning
 
 ```html
-<button class="c-btn c-btn--outline-primary">Botão outline primário</button>
-<button class="c-btn c-btn--outline-success">Botão secesso</button>
-<button class="c-btn c-btn--outline-error">Botão erro</button>
-<button class="c-btn c-btn--outline-warning">Botão advertência</button>
+<button class="c-btn c-btn--outline-primary c-btn--medium">Outline primário</button>
+<button class="c-btn c-btn--outline-success c-btn--medium">Outline sucesso</button>
+<button class="c-btn c-btn--outline-error c-btn--medium">Outline erro</button>
+<button class="c-btn c-btn--outline-warning c-btn--medium">Outline aviso</button>
 ```
 
 ### Ícone
@@ -100,4 +92,14 @@ Você pode ter um botão apenas com o ícone desejado, use a classe `c-btn--icon
 
 ```css
 .c-btn--icon
+```
+
+
+### Desativado
+
+Adicionar a classe `c-btn--disabled` ou o atributo `disabled` para o estilo desabilitado do botão.
+
+```html 
+<button class="c-btn c-btn--primary c-btn--disabled c-btn--medium">Botão desabilitado</button>
+<button class="c-btn c-btn--outline-primary c-btn--disabled c-btn--medium">Outline desabilitado</button>
 ```
