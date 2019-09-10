@@ -35,13 +35,13 @@ Passe o mouse e clique para visualizar os estados `:hover` e `:active`.
 ```html
 <button class="c-btn c-btn--primary c-btn--medium">Botão primário</button>
 <button class="c-btn c-btn--success c-btn--medium">Botão sucesso</button>
-<button class="c-btn c-btn--error c-btn--medium">Botão erro</button>0
+<button class="c-btn c-btn--error c-btn--medium">Botão erro</button>
 <button class="c-btn c-btn--warning c-btn--medium">Botão aviso</button>
 ```
 
 ### Tamanhos
 
-Adicionar as classes c-btn--small, c-btn--medium ou c-btn--large para tamanho de botão pequeno, médio ou grande.
+Adicionar as classes `c-btn--small`, `c-btn--medium` ou `c-btn--large` para tamanho de botão pequeno, médio ou grande.
 
 ```html
 <button class="c-btn c-btn--primary c-btn--small">Botão pequeno</button>
